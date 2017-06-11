@@ -44,4 +44,4 @@ Details of the code is found in source code.
 Latency is a challenge in this project.  I settled on implementing the 100 microsecond delay as required.  Since dt = 0.05 seconds, then 2*dt = 100 microsecond.  This is two dt time intervals.  I choose to implement the latency in the Solve function.  The steering and acceleration does not change during the 100 microseconds latency.  The previous value of steering and acceleration is assigned during this latency period.
          
 
-A video of this project is found here.
+A video of this project is found https://www.youtube.com/watch?v=Q3rMqWWroQ0&feature=youtu.be .
